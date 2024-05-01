@@ -1,0 +1,136 @@
+h1, h2, h3, h4, h5, p {
+    font-weight: 200;
+}
+
+.brand-logo img {
+    height: auto;
+    width: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.card-panel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar-fixed {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-field label {
+    color: #ffffff;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #ffffff;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+
+button {
+    size: large;
+    background: #ffff8d;
+    color: #ff80ab;
+    font-weight: 20px;
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+button :hover {
+    box-shadow: inset #e0e0e0;
+}
+
+.navbar-fixed .dropdown-content {
+    background-color: #e57373;
+    text-decoration-color: #ffffff;
+    position: fixed;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', sans-serif;
+    justify-self: center;
+    text-justify: auto;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    align-self: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-family: Georgia, serif;
+}
+
+h3#f {
+    font-weight: 200;
+    font-family: Georgia, serif;
+}
+
+h4 {
+    font-weight: 500;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 300;
+    font-family: system-ui;
+}
+
+h5#p {
+    font-weight: 400;
+    font-family: system-ui;
+    font-style: italic;
+}
+
+h5#l {
+    font-weight: 400;
+}
+
+p#l {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.card-panel h4#dd {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.card-panel h4#bm {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.card-panel#bs {
+    background-color: #FEF0D6;
+}
+
+.card#bb {
+    background: #FEF0D6;
+}
+
+.responsive-img#au {
+    box-shadow: inset;
+}
+
+footer .card-panel {
+    box-shadow: none;
+}

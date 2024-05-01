@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font awesome link -->
+     <script src="https://kit.fontawesome.com/1716856bfa.js" crossorigin="anonymous"></script>
+     <!-- Font awesone cdnjs -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Material icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style-product.css">
+    <title>Products</title>
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="" class="brand-logo center">
+                            <img src="images/img4.png" alt="">
+                        </a>
+                        <a href="" class="sidenav-trigger" data-target="mobile-demo">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                        <ul id="nav-mobile" class="hide-on-med-and-down">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="Products.html" class="dropdown-trigger" data-target="dropdown1">Products</a>
+                            </li>
+                            <li>
+                                <a href="collections.html">Collections</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="faqs.html">FAQs</a>
+                            </li>
+                        </ul>
+                        <ul id="nav-mobile" class="right">
+                            <li>
+                                <a class="modal-trigger" href="#modal1">
+                                    <i class="material-icons">search</i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul id="nav-mobile" class="right">
+                            <li>
+                                <a href="login.html">
+                                    <i class="material-icons">person_outline</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="cart.html">
+                                    <i class="material-icons">add_shopping_cart</i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Dropdown Structure --> 
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a class="white-text" href="flowers.html">Flower</a></li>
+        <li><a class="white-text" href="clothes.html">Clothes</a></li>
+        <li><a class="white-text" href="keychain.html">Keychain</a></li>
+        <li><a class="white-text" href="accessories.html">Accessories</a></li>
+    </ul>
+
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="flowers.html">Flower</a></li>
+        <li><a href="clothes.html">Clothes</a></li>
+        <li><a href="keychain.html">Keychain</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+    </ul>
+
+    <div id="modal1" class="modal">
+        <div class="row">
+            <div class="modal-content">
+                <h4>Search Store</h4>
+                <form>
+                    <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"></label><i class="material-icons">search</i>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/img11.png" alt="">
+                    <div class="caption center-align">
+                        <h1 class="center-align">Products</h1>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        </div>
+        <div class="card-panel" id="bs">
+            <div class="row">
+                <div class="col s6 m6 l6">
+                    <p class="flow-text left">24 items</p>
+                </div>
+                <div class="col s6 m6 l6">
+                    <p class="flow-text right">Alphabetical Order</p>
+                </div>
+                <div class="col s12 m6 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img28-1.jpg" alt="">
+                        </div>
+                        <div class="card-content center">
+                            <h4>Sanrio Bouquet</h4>
+                            <h5 id="p">PHP 180</h5>
+                            <h5>Type:</h5>
+                            <div class="input-field col s12 m12 l12 xl12">
+                                <select>
+                                    <option value="" >Hello Kitty</option>
+                                    <option value="1">Kuromi</option>
+                                    <option value="2">Cinnamoroll</option>
+                                </select>
+                                <label>Select</label>
+                            </div>
+                            <button class="waves-effect waves-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img29.jpg" alt="">
+                        </div>
+                        <div class="card-content center">
+                            <h4>Strawberry (per stem)</h4>
+                            <h5 id="p">PHP 60</h5>
+                            <h5>Quantity</h5>
+                            <div class="input-field col s12 m12 l12 xl12">
+                                <select>
+                                    <option value="" disabled selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="3">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                                <label>Select</label>
+                            </div>
+                            <button class="waves-effect waves-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img30-1.jpg" alt="">
+                        </div>
+                        <div class="card-content center">
+                            <h4>Sunflower Lamp</h4>
+                            <h5 id="p">PHP 250</h5>
+                            <h5>Quantity:</h5>
+                            <div class="input-field col s12 m12 l12 xl12">
+                                <select>
+                                    <option value="" disabled selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <label>MSelect</label>
+                            </div>
+                            <button class="waves-effect waves-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img31-1.jpg" alt="">
+                        </div>
+                        <div class="card-content center">
+                            <h4>Sunflower</h4>
+                            <h5 id="p">PHP 150</h5>
+                            <h5>Quantity:</h5>
+                            <div class="input-field col s12 m12 l12 xl12">
+                                <select>
+                                    <option value="" disabled selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <label>Select</label>
+                            </div>
+                            <button class="waves-effect waves-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img33.jpg" alt="">
+                        </div>
+                        <div class="card-content center">
+                            <h4>Taylor Inspired Bouquet</h4>
+                            <h5 id="p">PHP 330</h5>
+                            <h5>Type:</h5>
+                            <div class="input-field col s12 m12 l12 xl12">
+                                <select>
+                                    <option value="" >Lover</option>
+                                    <option value="1">Speak Now</option>
+                                    <option value="2">Midnights</option>
+                                    <option value="3">Red</option>
+                                </select>
+                                <label>Select</label>
+                            </div>
+                            <button class="waves-effect waves-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img32.jpg" alt="">
+                        </div>
+                        <div class="card-content center">
+                            <h4>Tulip (per stem)</h4>
+                            <h5 id="p">PHP 100</h5>
+                            <h5>Quantity:</h5>
+                            <div class="input-field col s12 m12 l12 xl12">
+                                <select>
+                                    <option value="" disabled selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <label>Select</label>
+                            </div>
+                            <button class="waves-effect waves-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="pagination center">
+                <li class="disabled"><a href="Products-2.html"><i class="material-icons">chevron_left</i></a></li>
+                <li class="waves-effect"><a href="Products.html">1</a></li>
+                <li class="waves-effect"><a href="Products-1.html">2</a></li>
+                <li class="waves-effect"><a href="Products-2.html">3</a></li>
+                <li class="active"><a href="Products-3.html">4</a></li>
+                <li class="waves-effect"><a href="Products.html"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+    </main>
+
+        <footer class="page-footer">
+            <div class="container">
+                <h4 class="center"><i class="fa-regular fa-envelope"></i></h4>
+                <h4 class="center">Subscribe to our newsletter</h4>
+                <div class="row">
+                    <div class="col s12 m12 l12 center">
+                        <form action="">
+                            <div class="input-field">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <a class="white pink-text waves-effect waves-light btn">Submit</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright center">
+                <div class="container">
+                © 2024 Copyright
+                </div>
+                <div class="container">
+                    <div class="s12 m6 l12">
+                        <a class="white-text" href="https://www.facebook.com/chis.crochet?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="white-text" href="https://www.instagram.com/chis.crochet?igsh=MXN6bTVvbnQxNmp5Nw==">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="white-text" href="https://www.tiktok.com/@chis.crochett?_t=8lyZ9gI0CcD&_r=1">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a class="white-text" href="https://ph.shp.ee/p95codo">
+                            <i class="fa-brands fa-stripe-s"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Sidenav Structure -->
+    <ul class="sidenav" id="mobile-demo">
+        <li class="active">
+            <a href="index.html" target="">Home</a>
+        </li>
+        <li>
+            <a class="dropdown-trigger" data-target="dropdown2" href="Products.html" target="">Products</a>
+        </li>
+        <li>
+            <a href="collections.html" target="">Collections</a>
+        </li>
+        <li>
+            <a href="faqs.html" target="">FAQs</a>
+        </li>
+        <li>
+            <a href="about-us.html" target="">About Us</a>
+        </li>
+    </ul>
+
+    <div style="height: 0px;"></div>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Slider init
+            $('.slider').slider({
+                height: 500,
+                indicators: false
+            });
+            // Sidenav init
+            $('.sidenav').sidenav();
+            // Select option
+            $('select').formSelect();
+            // Dropdown init
+            $(".dropdown-trigger").dropdown({
+                hover: 'true',
+                alignment: 'left',
+                coverTrigger: false,
+                constrainWidth:	true
+            });
+            // Modal init
+            $('.modal').modal({
+                startingTop: '0%',
+                endingTop: '0%'
+            });
+        });
+    </script>
+</body>
+</html>

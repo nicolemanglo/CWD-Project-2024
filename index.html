@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font awesome link -->
+     <script src="https://kit.fontawesome.com/1716856bfa.js" crossorigin="anonymous"></script>
+     <!-- Font awesone cdnjs -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Material icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+    <title>Chi's Crochet</title>
+</head>
+<body>
+    
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="container">
+                        <div class="nav-wrapper">
+                            <a href="" class="brand-logo center">
+                                <img src="images/img4.png" alt="">
+                            </a>
+                            <a href="" class="sidenav-trigger" data-target="mobile-demo">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                            <ul id="nav-mobile" class="hide-on-med-and-down">
+                                <li class="active">
+                                    <a href="">Home</a>
+                                </li>
+                                <li>
+                                    <a href="Products.html" class="dropdown-trigger" data-target="dropdown1">Products</a>
+                                </li>
+                                <li>
+                                    <a href="collections.html">Collections</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="faqs.html">FAQs</a>
+                                </li>
+                            </ul>
+                            <ul id="nav-mobile" class="right">
+                                <li>
+                                    <a class="modal-trigger" href="#modal1">
+                                        <i class="material-icons">search</i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul id="nav-mobile" class="right">
+                                <li>
+                                    <a href="login.html">
+                                        <i class="material-icons">person_outline</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cart.html">
+                                        <i class="material-icons">add_shopping_cart</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Dropdown Structure --> 
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a class="white-text" href="flowers.html">Flower</a></li>
+            <li><a class="white-text" href="clothes.html">Clothes</a></li>
+            <li><a class="white-text" href="keychain.html">Keychain</a></li>
+            <li><a class="white-text" href="accessories.html">Accessories</a></li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="flowers.html">Flower</a></li>
+            <li><a href="clothes.html">Clothes</a></li>
+            <li><a href="keychain.html">Keychain</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+        </ul>
+
+        <div id="modal1" class="modal">
+            <div class="row">
+                <div class="modal-content">
+                    <h4>Search Store</h4>
+                    <form>
+                        <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"></label><i class="material-icons">search</i>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/img1.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/img2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/img3.png" alt="">
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="card-panel red lighten-2">
+                <h3 class="center white-text" id="bs">Products</h3>
+                <br>
+                <div class="row">
+                    <div class="col s12 m6 l3 xl3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="responsive-img" src="images/img7.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="center">Flowers</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3 xl3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="responsive-img" src="images/img5.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="center">Clothes</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3 xl3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="responsive-img" src="images/img6.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="center">Keychain</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3 xl3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="responsive-img" src="images/img8.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="center">Accessories</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="Products.html" class="yellow pink-text accent-1 waves-effect waves-light btn-large">
+                        <i class="material-icons left">add_shopping_cart</i>Shop Now
+                    </a>
+                </div>
+            </div>
+    
+            <div class="card-panel center" id="bs">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <div class="container">
+                            <img class="responsive-img" src="images/img9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col s12 m6 16">
+                        <h3 class="center pink-text text-darken-1" id="bs">Best Seller Collection</h3>
+                            <p>Discover the pinnacle of craftsmanship and cozy elegance with our Best Seller Collection at Chi's Crochet. Handcrafted with passion and precision, each piece is a testament to our commitment to quality and style.
+                                <br><br>
+                                Whether you're seeking the perfect gift or treating yourself to a touch of luxury, Chi's Crochet Best Seller Collection offers unparalleled charm and versatility. Elevate your style, embrace warmth, and celebrate the artistry of crochet with our exquisite selection.
+                                <br><br>
+                                Explore our Best Sellers today and experience the allure of artisanal crochet at Chi's Crochet - where every stitch tells a story of comfort, creativity, and timeless elegance.
+                            </p>
+                            <div class="center">
+                                <a href="collections.html" class="yellow pink-text accent-1 waves-effect waves-light btn-large">
+                                    <i class="material-icons left">add_shopping_cart</i>Shop Now
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-panel center red lighten-2">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <h3 class="center white-text" id="bs">Commission Customized Items</h3>
+                            <p>At Chi's Crochet, we believe in bringing your imagination to life through the art of crochet. With our Commission Customized Items service, you have the opportunity to turn your dreams into reality, one stitch at a time.
+                                <br><br>
+                                Whether it's a special gift for a loved one or a treat for yourself, our Commission Customized Items service is the ultimate way to add a personal touch to your crochet collection.
+                                <br></br>
+                                Experience the joy of owning a truly unique piece of crochet artistry with Chi's Crochet. Let's collaborate and bring your imagination to life today!
+                            </p>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="container">
+                            <img class="responsive-img" src="images/img10.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="collections.html" class="yellow pink-text accent-1 waves-effect waves-light btn-large">
+                        <i class="material-icons left">add_shopping_cart</i>Shop Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-panel" id="bs">
+                <h3 class="pink-text text-darken-1 center" id="c">Style Gallery</h3>
+                <div class="container">
+                    <div class="carousel">
+                        <a class="carousel-item"><img class="responsive-img" src="images/img16.jpg" alt=""></a>
+                        <a class="carousel-item"><img class="responsive-img" src="images/img5.jpg" alt=""></a>
+                        <a class="carousel-item"><img class="responsive-img" src="images/img38.jpg" alt=""></a>
+                        <a class="carousel-item"><img class="responsive-img" src="images/img12.jpg" alt=""></a>
+                        <a class="carousel-item"><img class="responsive-img" src="images/img43.jpg" alt=""></a>
+                </div>
+                <p class="center">Purchase any item from our collection, showcase your flair by striking a pose with it, and share it with us! By participating, you could find yourself featured in our exclusive Style Gallery, where we highlight the diverse styles and personalities of our valued customers. Join our community of crochet aficionados and showcase your unique sense of fashion in our curated collection of customer creations. We can't wait to see how you make our pieces your own!</p>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <div class="container">
+                <h4 class="center"><i class="fa-regular fa-envelope"></i></h4>
+                <h4 class="center">Subscribe to our newsletter</h4>
+                <div class="row">
+                    <div class="col s12 m12 l12 center">
+                        <form action="">
+                            <div class="input-field">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <a class="white pink-text waves-effect waves-light btn">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright center">
+                <div class="container">
+                © 2024 Copyright
+                </div>
+                <div class="container">
+                    <div class="s12 m6 l12">
+                        <a class="white-text" href="https://www.facebook.com/chis.crochet?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="white-text" href="https://www.instagram.com/chis.crochet?igsh=MXN6bTVvbnQxNmp5Nw==">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="white-text" href="https://www.tiktok.com/@chis.crochett?_t=8lyZ9gI0CcD&_r=1">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a class="white-text" href="https://ph.shp.ee/p95codo">
+                            <i class="fa-brands fa-stripe-s"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Sidenav Structure -->
+        <ul class="sidenav" id="mobile-demo">
+            <li class="active">
+                <a href="index.html" target="">Home</a>
+            </li>
+            <li>
+                <a class="dropdown-trigger" data-target="dropdown2" href="Products.html" target="">Products</a>
+            </li>
+            <li>
+                <a href="collections.html" target="">Collections</a>
+            </li>
+            <li>
+                <a href="faqs.html" target="">FAQs</a>
+            </li>
+            <li>
+                <a href="about-us.html" target="">About Us</a>
+            </li>
+        </ul>
+    
+        <div style="height: 0px;"></div>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Slider init
+            $('.slider').slider({
+                height: 700,
+                indicators: false
+            });
+            // Sidenav init
+            $('.sidenav').sidenav({
+                draggable: true
+            });
+            // Dropdown init
+            $(".dropdown-trigger").dropdown({
+                hover: true,
+                alignment: 'center',
+                coverTrigger: false,
+                constrainWidth:	true
+            });
+            // Carousel init
+            $('.carousel').carousel({
+                dist: -100,
+                indicators: true,
+                shift: 5,
+                padding: 50,
+                numVisible: 5,
+                noWrap: false
+            });
+            // Modal init
+            $('.modal').modal({
+                startingTop: '0%',
+                endingTop: '0%'
+            });
+        });
+    </script>
+</body>
+</html>

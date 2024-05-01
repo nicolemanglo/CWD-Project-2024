@@ -1,0 +1,86 @@
+h1, h2, h3, h4, h5, p {
+    font-weight: 200;
+}
+
+.brand-logo img {
+    height: auto;
+    width: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+header .navbar-fixed {
+    background-color: #E882A8;
+}
+
+.card-panel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.input-field label {
+    color: #ffffff;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #ffffff;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+
+.dropdown-content {
+    background-color: #e57373;
+    color: #ffffff;
+    position: fixed;
+}
+
+.dropdown-content#dropdown2 {
+    background-color:#ffffff;
+    text-emphasis-color: #ffffff;
+    position: fixed;
+}
+
+.card-panel#bs {
+    background-color: #FEF0D6;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    justify-self: center;
+}
+
+h3#bs {
+    font-weight: 500;
+    font-family: Georgia, serif;
+}
+
+.carousel {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel .carousel-item {
+    height: 400px;
+    width: 300px;
+}
+
+
+h3#c {
+    font-weight: 500;
+    font-family: Georgia, serif;
+    margin-bottom: 40px;
+}
+
+
+
